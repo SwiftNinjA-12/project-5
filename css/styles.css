@@ -12,7 +12,7 @@ header {
   background-color: rgb(56, 56, 56);
 }
 
-#page-logo a {
+#logo{
   color: rgb(99, 145, 232);
   font-size: 24px;
   padding: 12px;
@@ -33,7 +33,7 @@ ul {
     text-align: right;
     margin-left: 20px;
   }
-  header a{
+  nav a{
     text-decoration: none;
     color: rgb(99, 145, 232);
     text-transform: capitalize;
