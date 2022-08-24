@@ -56,7 +56,7 @@ body {
 #main-header nav a:hover {
   color: rgb(148, 166, 199);
 }
-#side-drawer{
+#side-drawer {
   width: 100%;
   height: 100%;
   background-color: rgb(29, 26, 27);
@@ -65,18 +65,17 @@ body {
   left: 0;
   display: none;
 }
-#side-drawer:target{
-display: block;
-
+#side-drawer:target {
+  display: block;
 }
-#side-drawer header{
+#side-drawer header {
   height: 5rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0 5%;  
+  padding: 0 5%;
 }
-#side-drawer ul{
+#side-drawer ul {
   list-style: none;
   margin: 0;
   padding: 4rem 1rem;
@@ -84,18 +83,15 @@ display: block;
   align-items: center;
   flex-direction: column;
 }
-#side-drawer li{
+#side-drawer li {
   margin: 1rem 0;
 }
-#side-drawer a{
+#side-drawer a {
   text-decoration: none;
   color: rgb(148, 166, 199);
   font-size: 2rem;
   text-transform: capitalize;
 }
-
-
-
 
 main h1 {
   text-align: center;
@@ -149,7 +145,7 @@ main h1 {
   }
   .menu-btn {
     display: flex;
-}
+  }
   main h1 {
     font-size: 1.5rem;
   }
