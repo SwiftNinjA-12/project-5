@@ -22,6 +22,19 @@ body {
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   text-transform: uppercase;
 }
+.menu-btn {
+  width: 3rem;
+  height: 3rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.menu-btn span {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
+
 #main-header ul {
   list-style: none;
   margin: 0;
@@ -43,6 +56,47 @@ body {
 #main-header nav a:hover {
   color: rgb(148, 166, 199);
 }
+#side-drawer{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(29, 26, 27);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#side-drawer:target{
+display: block;
+
+}
+#side-drawer header{
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 5%;  
+}
+#side-drawer ul{
+  list-style: none;
+  margin: 0;
+  padding: 4rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#side-drawer li{
+  margin: 1rem 0;
+}
+#side-drawer a{
+  text-decoration: none;
+  color: rgb(148, 166, 199);
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+
+
+
 main h1 {
   text-align: center;
   color: rgb(99, 145, 232);
@@ -75,7 +129,8 @@ main h1 {
   text-align: center;
 }
 .food-item-content h2 {
-  text-transform: capitalize; 
+  text-transform: capitalize;
+  margin-top: 0;
 }
 .btn {
   background-color: rgb(44, 72, 228);
@@ -86,4 +141,19 @@ main h1 {
 }
 .btn:hover {
   background-color: rgb(34, 134, 221);
+}
+
+@media (max-width: 48rem) {
+  #main-header nav {
+    display: none;
+  }
+  .menu-btn {
+    display: flex;
+}
+  main h1 {
+    font-size: 1.5rem;
+  }
+  #latest-products ul {
+    grid-template-columns: 100%;
+  }
 }
