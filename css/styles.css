@@ -23,8 +23,8 @@ body {
   text-transform: uppercase;
 }
 .menu-btn {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2rem;
   display: none;
   flex-direction: column;
   justify-content: space-around;
